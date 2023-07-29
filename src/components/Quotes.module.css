@@ -1,0 +1,33 @@
+.quote-container{
+    max-width: 40rem;
+    min-height: 11rem;
+    margin: 3rem auto;
+    padding: 1rem;
+    text-align: center;
+    border: 2px solid #A13B61;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.quote-container h3{
+    margin: 0;
+}
+
+.quote-container button{
+    width: 10rem;
+    padding: 0.5rem 0.2rem;
+    font-size: 1rem;
+    margin: 0 auto;
+    font-weight: bold;
+    background-color: #DB7093;
+    border: 1px solid #DB7093;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.quote-container button:hover{
+    background-color: #A13B61;
+    border: 1px solid #A13B61;
+}
