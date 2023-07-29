@@ -1,7 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from './Quotes.module.css';
 
 function Quotes(){
+
+    useEffect(() => {
+        fetch("https://type.fit/api/quotes")
+        .then((response) => {
+            if(!response.ok){
+                throw new Error("Something went wrong");
+            }
+            return response.json();
+        })
+        .then((data) => {
+            console.log(data);
+        })
+        .catch((error) => {
+            console.log(error)
+        });
+    }, []);
 
     return(
         <div className={styles["quote-container"]} >
