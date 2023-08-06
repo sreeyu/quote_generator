@@ -49,6 +49,9 @@ Here's a breakdown of how the application works:
 
 With these functionalities, the "Quotes Generator" allows users to discover and enjoy a wide range of quotes, providing inspiration and motivation with each new random quote
 
+## Demo
+Check out the live demo of quote_generator [here](https://sreeyu.github.io/quote_generator/).
+
 ## Usage
 1. Open the application in your web browser.
 2. A random quote along with the name of the author will be displayed.
